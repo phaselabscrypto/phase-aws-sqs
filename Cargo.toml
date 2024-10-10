@@ -1,0 +1,21 @@
+[package]
+name = "phase-sqs"
+version = "0.0.1"
+authors = ["Your Name <gabriel@phaselabs.io>"]
+edition = "2021"
+description = "A flexible and extensible AWS SQS client for processing and sending messages"
+repository = "https://github.com/phaselabscrypto/phase-aws-sqs"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+aws-config = { version = "1.5.8" }
+aws-sdk-sqs = { version = "1.5.8" }
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1.83"
+mockall = { version = "0.13.0" }
+
+[package.metadata.docs.rs]
+features = ["default"]
+no-default-features = false
+default-target = "x86_64-unknown-linux-gnu"
