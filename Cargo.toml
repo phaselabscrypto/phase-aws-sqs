@@ -1,6 +1,6 @@
 [package]
 name = "phase_sqs"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Your Name <gabriel@phaselabs.io>"]
 edition = "2021"
 description = "A flexible and extensible AWS SQS client for processing and sending messages"
@@ -18,4 +18,3 @@ mockall = { version = "0.13.0" }
 [package.metadata.docs.rs]
 features = ["default"]
 no-default-features = false
-default-target = "x86_64-unknown-linux-gnu"
