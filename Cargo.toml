@@ -1,6 +1,6 @@
 [package]
-name = "phase-sqs"
-version = "0.0.1"
+name = "phase_sqs"
+version = "0.2.0"
 authors = ["Your Name <gabriel@phaselabs.io>"]
 edition = "2021"
 description = "A flexible and extensible AWS SQS client for processing and sending messages"

@@ -941,8 +941,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e3148f5046208a5d56bcfc03053e3ca6334e51da8dfb19b6cdc8b306fae3283e"
 
 [[package]]
-name = "phase-sqs"
-version = "0.0.1"
+name = "phase_sqs"
+version = "0.2.0"
 dependencies = [
  "async-trait",
  "aws-config",
